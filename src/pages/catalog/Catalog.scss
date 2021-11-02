@@ -1,0 +1,15 @@
+.catalog {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    @media only screen and (max-width: 768px) {
+      justify-content: center;
+      flex-direction: column;
+      select {
+        margin-top: 8px;
+      }
+    }
+  }
+}

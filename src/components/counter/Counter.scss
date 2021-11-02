@@ -1,0 +1,60 @@
+.counter {
+  display: flex;
+  align-items: center;
+  width: 71px;
+  height: 51px;
+  background-color: #F7F6F6;
+  border-radius: 6px;
+
+  &__number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    color: #000000;
+    width: 47px;
+    height: 27px;
+    background-color: #F7F6F6;
+    border: none;
+    text-align: center;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .up,
+    .down {
+      cursor: pointer;
+      width: 16px;
+      height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        color: #CACDD8;
+      }
+      &:hover {
+        svg {
+          color: #80828a;
+        }
+      }
+      &:active {
+        svg {
+          color: #4a4a4d;
+        }
+      }
+
+    }
+    .up {
+
+    }
+    .down {
+      transform: rotate(180deg);
+    }
+  }
+}

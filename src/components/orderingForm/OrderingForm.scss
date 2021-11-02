@@ -1,0 +1,53 @@
+.orderingForm {
+  display: flex;
+  flex-direction: column;
+  width: 379px;
+  background: #F7F6F6;
+  border-radius: 20px;
+
+  input {
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    background: #F7F6F6;
+    color: #000000;
+    border: none;
+    border-bottom: 1px solid #CACDD8;
+    padding: 0 0 4px;
+    margin-top: 36px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+
+  &__wrapper {
+    padding: 42px 32px 148px;
+  }
+
+  &__price {
+    margin-top: 64px;
+    margin-bottom: 18px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+}

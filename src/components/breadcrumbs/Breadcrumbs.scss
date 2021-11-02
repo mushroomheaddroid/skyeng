@@ -1,0 +1,28 @@
+.breadcrumbs {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  display: flex;
+  &__item {
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover {
+      color: #888888;
+    }
+
+    &:before {
+      content: "/";
+      margin: 0 10px;
+    }
+
+    &:first-child {
+      &:before {
+        display: none;
+      }
+    }
+  }
+}

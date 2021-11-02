@@ -1,0 +1,15 @@
+.cartPopup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 64px;
+  right: 64px;
+  padding: 0 24px;
+  height: 48px;
+  background-color: #050505;
+  color: #FFFFFF;
+  border-radius: 11px;
+  cursor: pointer;
+
+}
