@@ -6,7 +6,7 @@ import Cart from "./pages/cart/Cart";
 function App() {
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <div className="App__wrapper">
           <Switch>
